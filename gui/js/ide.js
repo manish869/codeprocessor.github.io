@@ -20,7 +20,7 @@ function executeCode() {
 
     $.ajax({
 
-        url: "/online-ide-master/app/compiler.php",
+        url: "/app/compiler.php",
 
         method: "POST",
 
