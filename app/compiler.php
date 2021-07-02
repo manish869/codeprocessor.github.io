@@ -16,7 +16,7 @@
     }
    
      if($language == "python") {
-        $output = shell_exec("python $filePath 2>&1");
+        $output = shell_exec("python39\pyton.exe $filePath 2>&1");
         echo $output;
     }
     if($language == "node") {
